@@ -29,4 +29,4 @@ jobs:
       - name: '运行 【中青每日任务&转盘抽奖】'
         if: env.YOUTH_HEADER
         run: |
-          node youth.js
+          node Task/youth.js
